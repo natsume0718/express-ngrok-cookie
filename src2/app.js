@@ -4,8 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }))
-
 var indexRouter = require('./routes/index');
 
 var app = express();
